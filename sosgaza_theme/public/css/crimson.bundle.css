@@ -1,0 +1,223 @@
+/* Crimson Theme - Red Sidebar Design */
+[data-theme=crimson] {
+    --primary-color: #c53030;
+    --primary-dark: #9b2c2c;
+    --primary-light: #e53e3e;
+    --sidebar-bg: #c53030;
+    --sidebar-text: #ffffff;
+    --sidebar-hover: #9b2c2c;
+    --navbar-bg: #ffffff;
+    --navbar-border: #e2e8f0;
+    --bg-color: #f7fafc;
+    --text-color: #2d3748;
+    --border-color: #e2e8f0;
+    --card-bg: #ffffff;
+}
+
+/* Sidebar Styling */
+[data-theme=crimson] .desk-sidebar {
+    background-color: var(--sidebar-bg) !important;
+    border-right: none !important;
+}
+
+[data-theme=crimson] .desk-sidebar .sidebar-item-container {
+    background-color: transparent !important;
+}
+
+[data-theme=crimson] .desk-sidebar .sidebar-item-label {
+    color: var(--sidebar-text) !important;
+    font-weight: 500;
+}
+
+[data-theme=crimson] .desk-sidebar .sidebar-item-icon {
+    color: var(--sidebar-text) !important;
+}
+
+[data-theme=crimson] .desk-sidebar .sidebar-item:hover {
+    background-color: var(--sidebar-hover) !important;
+}
+
+[data-theme=crimson] .desk-sidebar .sidebar-item.selected {
+    background-color: var(--sidebar-hover) !important;
+}
+
+[data-theme=crimson] .desk-sidebar .standard-sidebar-item:hover {
+    background-color: var(--sidebar-hover) !important;
+}
+
+[data-theme=crimson] .desk-sidebar .standard-sidebar-item.selected {
+    background-color: var(--sidebar-hover) !important;
+}
+
+/* Navbar Styling */
+[data-theme=crimson] .navbar {
+    background-color: var(--navbar-bg) !important;
+    border-bottom: 1px solid var(--navbar-border) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme=crimson] .navbar-brand {
+    color: var(--text-color) !important;
+}
+
+[data-theme=crimson] .navbar .nav-link {
+    color: var(--text-color) !important;
+}
+
+[data-theme=crimson] .navbar .dropdown-toggle {
+    color: var(--text-color) !important;
+}
+
+/* Main Content Area */
+[data-theme=crimson] .main-section {
+    background-color: var(--bg-color) !important;
+}
+
+[data-theme=crimson] .page-container {
+    background-color: var(--bg-color) !important;
+}
+
+[data-theme=crimson] .page-content {
+    background-color: var(--bg-color) !important;
+}
+
+/* Cards and Widgets */
+[data-theme=crimson] .widget {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 8px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme=crimson] .card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme=crimson] .frappe-card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Form Controls */
+[data-theme=crimson] .form-control {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    color: var(--text-color) !important;
+}
+
+[data-theme=crimson] .form-control:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem rgba(197, 48, 48, 0.25) !important;
+}
+
+/* Buttons */
+[data-theme=crimson] .btn-primary {
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+[data-theme=crimson] .btn-primary:hover {
+    background-color: var(--primary-dark) !important;
+    border-color: var(--primary-dark) !important;
+}
+
+/* Search Bar */
+[data-theme=crimson] .search-bar {
+    background-color: var(--card-bg) !important;
+}
+
+[data-theme=crimson] .search-bar .awesomplete input {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+/* Scrollbars */
+[data-theme=crimson] *::-webkit-scrollbar {
+    width: 6px;
+}
+
+[data-theme=crimson] *::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+[data-theme=crimson] *::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+
+[data-theme=crimson] * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--bg-color);
+}
+
+/* Modal Styling */
+[data-theme=crimson] .modal-content {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+}
+
+[data-theme=crimson] .modal-header {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme=crimson] .modal-footer {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+/* Tables */
+[data-theme=crimson] .table {
+    background-color: var(--card-bg) !important;
+}
+
+[data-theme=crimson] .table th {
+    border-top: 1px solid var(--border-color) !important;
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+[data-theme=crimson] .table td {
+    border-top: 1px solid var(--border-color) !important;
+}
+
+/* Dropdown Menus */
+[data-theme=crimson] .dropdown-menu {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme=crimson] .dropdown-item {
+    color: var(--text-color) !important;
+}
+
+[data-theme=crimson] .dropdown-item:hover {
+    background-color: var(--bg-color) !important;
+}
+
+/* Page Title */
+[data-theme=crimson] .page-title {
+    color: var(--text-color) !important;
+}
+
+/* Links */
+[data-theme=crimson] a {
+    color: var(--primary-color) !important;
+}
+
+[data-theme=crimson] a:hover {
+    color: var(--primary-dark) !important;
+}
+
+/* Text Colors */
+[data-theme=crimson] .text-muted {
+    color: #718096 !important;
+}
+
+/* Breadcrumbs */
+[data-theme=crimson] .breadcrumb {
+    background-color: transparent !important;
+}
+
+[data-theme=crimson] .breadcrumb-item a {
+    color: var(--primary-color) !important;
+}

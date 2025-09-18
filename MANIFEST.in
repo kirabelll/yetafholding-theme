@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sosgaza_theme *.css
+recursive-include sosgaza_theme *.csv
+recursive-include sosgaza_theme *.html
+recursive-include sosgaza_theme *.ico
+recursive-include sosgaza_theme *.js
+recursive-include sosgaza_theme *.json
+recursive-include sosgaza_theme *.md
+recursive-include sosgaza_theme *.png
+recursive-include sosgaza_theme *.py
+recursive-include sosgaza_theme *.svg
+recursive-include sosgaza_theme *.txt
+recursive-exclude sosgaza_theme *.pyc
