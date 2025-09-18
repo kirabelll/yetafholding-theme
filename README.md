@@ -18,7 +18,7 @@
 
 
 **To install this theme**
-bench get-app https://github.com/ameerbaathar/sosgaza_theme.git
+bench get-app https://github.com/kirabelll/yetafholding-theme.git
 
 bench --site (your site name) install-app sosgaza_theme
 
@@ -31,6 +31,6 @@ After installing this Toggle Theme use the keyboard shortcut **CTRL + SHIFT + G*
 
 
 **To Uninstall this theme**
-bench --site (your site name) uninstall-app sosgaza_theme
+bench --site (your site name) uninstall-app yetafholding-theme
 
 
